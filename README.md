@@ -1,4 +1,4 @@
-# HeartArrythmia
+# Heart Arrhythmia
 The previous model (Heart Arrhythmia Detection LSTM) concluded the detection
 of heart arrhythmia using uni-directional LSTM model from deep learning. The results were
 found to be great but there was some room for improvement, the model had a decent
