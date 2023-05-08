@@ -16,3 +16,22 @@ Additional change is the introduction of back propagation with the help of batch
 drastically decreases the computational and the runtime of the model from 7-8 hours to 2-3
 hours, all this occurs at a faster rate for even bigger dataset and has the accuracy gaining at
 double the rate for much less epochs.
+
+
+#Findings of the model
+As there were multiple classes to predict the results of irregularities, a precision, recall and f1-
+score was calculated for each class to be predicted the results of. The accuracy was found to be
+above the 99 thresholds. All this was followed by the final confusion matrix which made the
+concept of the performance of the model clear for the understanding of further development.
+This concluded the working of the entire model in brief. The model was found to be 99%
+accurate and is found fit for those datasets which are present in .cv format. The model gives us
+knowledge about the values of True Positives, False Positives, True Negatives and False
+Negatives. This tells us how good our model is and how many times it gives us the appropriate
+results. The results of the current model can be improved further by using other "Feature
+Extraction" techniques and also by adding additional layers. The model does seem to have more
+room for improvement although the limitations for the existing technology and knowledge acts
+as a barrier and hence these seems a theoretical approach for the improvements further, being
+able to detect the R sinusoidal wave, we can further calculate the less evasive and less
+complicated waves which are easier for the computation and then combine the models to get a
+complete and accurate figure for the prediction which might not be needed to be read by the
+medical professional and solely by the current existing model.
