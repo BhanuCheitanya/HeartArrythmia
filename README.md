@@ -18,7 +18,7 @@ hours, all this occurs at a faster rate for even bigger dataset and has the accu
 double the rate for much less epochs.
 
 
-#Findings of the model
+# Findings of the model
 As there were multiple classes to predict the results of irregularities, a precision, recall and f1-
 score was calculated for each class to be predicted the results of. The accuracy was found to be
 above the 99 thresholds. All this was followed by the final confusion matrix which made the
