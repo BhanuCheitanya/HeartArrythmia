@@ -1,1 +1,34 @@
+# About the dataset
+This dataset is composed of two collections of heartbeat signals derived from two famous
+datasets in heartbeat classification, the MIT-BIH Arrhythmia Dataset and The PTB Diagnostic
+ECG Database. The number of samples in both collections is large enough for training a deep
+neural network.
+The dataset considered for this case is Cardiac Arrhythmia Database. The dataset consists of
+549 instances and 290 associated subjects. The dataset classifies 16 different heart conditions
+ranging from Premature Contraction to Blockage which are directly associated with Heart
+Arrythmia. The dataset also consists information regarding the Gender of the patient along with
+other personal details like weight, height, age etc.
+This dataset has been used in exploring heartbeat classification using deep neural network
+architectures, and observing some of the capabilities of transfer learning on it. The signals
+correspond to electrocardiogram (ECG) shapes of heartbeats for the normal case and the cases
+affected by different arrhythmias and myocardial infarction. These signals are preprocessed
+and segmented, with each segment corresponding to a heartbeat.
+The dataset is in the form of .csv files, and contains data from two datasets-MIT-BIH
+Arrhythmia Dataset and The PTB Diagnostic ECG Database.
+The MIT-BIH Arrhythmia Dataset has 109,500 samples with 5 categories/classes. These
+
+classes are 'N': 0, 'S': 1, 'V': 2, 'F': 3, 'Q': 4 and these stand for-
+0: 'Normal Beat',
+
+1: 'Supraventricular premature beat',
+2: 'Premature ventricular contraction',
+3: 'Fusion beats',
+4: 'Unclassifiable/Unknown beats'.
+The PTB Diagnostic ECG Database contains around 14,500 samples and 2 categories/classes.
+This dataset contains information related to height, weight, gender and age of patients.
+
+
+Since the dataset is huge the .csv files cannot be uploaded to github directly. Hence I am attaching a drive link from where one can access the datasets.
+# Link- 
+https://drive.google.com/drive/folders/1oj25ksVlVzDFQ28664sbbl9zhJbEXbMz?usp=sharing
 
